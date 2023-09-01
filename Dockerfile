@@ -1,6 +1,6 @@
 FROM ubuntu:22.04
-ENV NAME ajaycont
-ENV PASS 12345
+ENV NAME ajayji
+ENV PASS 123456
 RUN mkdir -p /var/run/sshd
 RUN apt-get update && apt-get upgrade
 RUN apt-get install -y openssh-server
